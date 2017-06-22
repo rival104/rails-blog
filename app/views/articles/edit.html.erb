@@ -1,4 +1,4 @@
-<h1>This is new article page</h1>
+<h1>Edit existing article</h1>
 
 <!--showing validation check errors:-->
 <% if @article.errors.any? %>
@@ -23,5 +23,4 @@
     <%= fm.submit %>
   </p>
 <% end %>
-
 <%= link_to "Back to article list", articles_path %>
