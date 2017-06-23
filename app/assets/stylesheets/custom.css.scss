@@ -19,7 +19,7 @@
 	text-align: center;
 }
 .jumbotron {
-	background-image: asset-url('new_cover_page.png');
+	background-image: url('http://www.coolfbcovers.com/covers-images/download/Feel%20The%20Bass%20Fb%20Cover.jpg');
 	background-size: cover;
 	height: 550px;
 }
@@ -61,11 +61,20 @@ footer ul li {
 .description {
 	margin-top: 0;
 }
+.article-title {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+.article-body {
+	border-top: 1px solid #eaeaea;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
 .home {
 	margin: 70px auto;
 	text-align: center;
 }
-img{
+.img-small{
   height:300px;
   width:300px;
 }
